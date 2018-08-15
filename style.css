@@ -59,10 +59,54 @@ div{
     
 }
 
-.margin{
+.margins{
     display: none;
     
     
 }
+
+.padding{
+    display: none;
+    
+    
+}
+
+.box{
+    display: none;
+    
+    
+}
+
+.text{
+    display: none;
+    
+    
+}
+
+.icon{
+    display: none;
+    
+    
+}
+
+.list{
+    display: none;
+    
+    
+}
+
+.table{
+    display: none;
+    
+    
+}
+
+.misc{
+    display: none;
+    
+    
+}
+
+
 
 
