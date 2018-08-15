@@ -1,7 +1,18 @@
 body{
-    background-color: orangered;
-}
+    background-color:chocolate;
+    
+    /*background-image: url(images/bg1.jpg);
+    */
+    /*background-repeat: no-repeat;
+    background-repeat:repeat-x;
+    */
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
 
+    
+}
+/*
 .container{
     width:400px;
     height:400px;
@@ -11,7 +22,47 @@ body{
     border: 3px solid black;  /* dashed dotted etc */
     border-radius: 3px;
 }
-
+*/
 .text{
     color: #000000;
 }
+
+h1{
+    text-align: center;
+    font-family: sans-serif;
+    color:black;
+    padding: 10px;
+    
+}
+
+div{
+    margin: auto;
+    background-color: aliceblue;
+    
+    height: 600px;
+    width: 800px;
+}
+
+
+
+
+.border{
+    
+    display: none;
+    border-style:solid;
+    border-bottom-style: dashed;
+    border-top-style:groove;
+    border-color: aqua;
+    border-bottom-color:chartreuse;
+    border-width: 20px;
+    border-radius: 30px;
+    
+}
+
+.margin{
+    display: none;
+    
+    
+}
+
+
