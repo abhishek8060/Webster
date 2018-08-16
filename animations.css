@@ -1,0 +1,82 @@
+body{
+    background-color: paleturquoise;
+}
+
+div{
+    height: 260px;
+    width: 260px;
+    border-radius: 100%;
+    position: absolute;
+    text-align: center; 
+    font-size: 24px;
+}
+
+p{
+    margin-top: 40%;
+}
+
+.row-1{
+    top: 200px;
+}
+
+.col-1{
+    left: 80px;
+}
+
+.col-2{
+    left: 400px;
+}
+
+.col-3{
+    left: 720px;
+}
+
+.col-4{
+    left: 1040px;
+}
+
+
+#div-1{
+    /* background-color: darkgray; */
+
+    /* Gradients */
+
+    background: linear-gradient(darkgray,green,orange);
+
+    /* background: linear-gradient(to right,darkgray,green,orange);  */
+
+    /* background: radial-gradient(darkgray,green); */
+}
+
+
+
+#div-2{
+    background-color: dodgerblue;
+    /* Shadows */
+    /* box-shadow: 10px 10px grey; */
+    box-shadow: 10px 10px 5px grey;
+}
+
+#div-3{
+    background-color: chartreuse;
+    transition: transform 2s;
+}
+
+#div-3:hover{
+    /* transform: translate(40px,40px); */
+    transform: rotate(-40deg);
+    /* transform: scale(0.8,0.8); */
+    /* transform: skew(20deg,-40deg); */
+    /* transform: matrix(1, -0.3, 1.3, 1, 0, 0); */
+}
+
+#div-4{
+    background-color: chocolate;
+    transition: transform 2s;
+}
+
+#div-4:hover{
+    /* transform: rotateX(40deg); */
+    transform: rotateY(60deg);
+    /* transform: rotateZ(90deg); */
+}
