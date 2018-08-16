@@ -35,8 +35,12 @@ p{
     left: 1040px;
 }
 
-
 #div-1{
+    background-color: darkgray;
+    transition: background 2s;
+}
+
+#div-1:hover{
     /* background-color: darkgray; */
 
     /* Gradients */
@@ -48,10 +52,12 @@ p{
     /* background: radial-gradient(darkgray,green); */
 }
 
-
-
 #div-2{
     background-color: dodgerblue;
+    transition: box-shadow 2s;
+}
+
+#div-2:hover{
     /* Shadows */
     /* box-shadow: 10px 10px grey; */
     box-shadow: 10px 10px 5px grey;
